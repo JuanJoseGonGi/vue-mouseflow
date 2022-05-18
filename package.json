@@ -1,8 +1,9 @@
 {
   "name": "@juanjosegongi/vue-mouseflow",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Vue.js plugin to add Mouseflow tracking to your application",
   "main": "dist/index.js",
+  "homepage": "https://github.com/JuanJoseGonGi/vue-mouseflow#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "esbuild src/index.ts --bundle --minify --external:vue --outfile=dist/index.js"
@@ -12,6 +13,10 @@
     "tracking"
   ],
   "author": "Jamie McElwain <jamie@esteemtherapeutics.com>",
+  "contributors": [
+    "Jamie McElwain <jamie@esteemtherapeutics.com>",
+    "Juan José González Giraldo <juanjose.eng@gmail.com>"
+  ],
   "license": "MIT",
   "dependencies": {
     "esbuild": "^0.14.39",
