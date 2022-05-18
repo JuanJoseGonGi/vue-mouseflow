@@ -13,7 +13,7 @@ npm install --save vue-mouseflow
 
 ## Plugin Installation
 
-#### `VueMouseflow.install(Vue, options)`
+### `VueMouseflow.install(Vue, options)`
 
 - **`Vue`**`<Object>`: a Vue instance
 - **`tracking_key`**`<String>`: The Mouseflow tracking key you want to use
